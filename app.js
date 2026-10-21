@@ -11,7 +11,7 @@ if (user) {
 }
 
 // ТВОИ ДАННЫЕ — замени на свои
-const SHEET_ID = 'ВСТАВЬ_ID_СВОЕЙ_ТАБЛИЦЫ';
+const SHEET_ID = '1a1UHy0_oMgwvKhR6vGVRZwu2qaK6wbSHCPmdzXQRhOQ';
 const API_KEY = 'AIzaSyDe1CkIvfAvU4gi8Xtp_vzPE8wsN0Tn3eA'; // получишь на Этапе 3
 const SHEET_NAME = 'Clients'; // имя листа
 
