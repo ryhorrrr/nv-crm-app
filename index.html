@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NV-CRM</title>
+    <!-- Официальный скрипт Telegram WebApp — ОБЯЗАТЕЛЬНО -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>NV-CRM</h1>
+        <p id="user-name"></p>
+    </header>
+
+    <main>
+        <div id="loading">Загрузка данных...</div>
+        <div id="error" style="display:none; color:red;"></div>
+        <table id="clients-table" style="display:none;">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>УНП</th>
+                    <th>Отрасль</th>
+                    <th>Контакт</th>
+                    <th>Телефон</th>
+                </tr>
+            </thead>
+            <tbody id="clients-body"></tbody>
+        </table>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
